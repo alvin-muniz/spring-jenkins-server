@@ -4,3 +4,5 @@ workflow-aggregator:2.6
 git:4.5.0
 docker-workflow:1.26
 docker-plugin:1.2.2
+maven-plugin:3.10
+pipeline-maven:3.10.0
