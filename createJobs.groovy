@@ -10,9 +10,9 @@ pipelineJob('spring-jenkins-demo') {
                 }
             }
         }
-        cps {
-            script(readFileFromWorkspace('pipelineJob.groovy'))
-            sandbox()
-        }
+//        cps {
+//            script(readFileFromWorkspace('pipelineJob.groovy'))
+//            sandbox()
+//        }
     }
 }
